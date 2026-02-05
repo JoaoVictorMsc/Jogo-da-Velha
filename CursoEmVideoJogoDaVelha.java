@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class CursoEmVideoJogoDaVelha {
+public class JogoDaVelha {
    public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
        int jogadas = 0;
@@ -72,4 +72,5 @@ public class CursoEmVideoJogoDaVelha {
          return (m[0][0].equals(jogador) && m[1][1].equals(jogador) && m[2][2].equals(jogador)) ||
                 (m[0][2].equals(jogador) && m[1][1].equals(jogador) && m[2][0].equals(jogador));
       }
+
 }
